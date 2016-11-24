@@ -1,0 +1,30 @@
+{
+  "name": "@tencent/eslint-config-imweb",
+  "version": "0.0.1",
+  "description": "IMWeb团队eslint配置规则",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/imweb/eslint-config-imweb.git"
+  },
+  "keywords": [
+    "eslint",
+    "style",
+    "imweb"
+  ],
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "author": "IMWeb Team",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.10.2",
+    "babel-eslint": "^7.1.1"
+  }
+}
