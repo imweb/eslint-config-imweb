@@ -42,6 +42,7 @@ module.exports = {
       },
     ],
     'consistent-return': 0,
+    'class-methods-use-this': 0,
     //'comma-dangle': 0,
   },
 };
