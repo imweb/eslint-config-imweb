@@ -1,6 +1,6 @@
 {
   "name": "@tencent/eslint-config-imweb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "IMWeb团队eslint配置规则",
   "repository": {
     "type": "git",
