@@ -1,10 +1,10 @@
 {
-  "name": "@tencent/eslint-config-imweb",
+  "name": "eslint-config-imweb",
   "version": "0.1.0",
   "description": "IMWeb团队eslint配置规则",
   "repository": {
     "type": "git",
-    "url": "http://git.code.oa.com/imweb/eslint-config-imweb.git"
+    "url": "https://github.com/imweb/eslint-config-imweb.git"
   },
   "keywords": [
     "eslint",
