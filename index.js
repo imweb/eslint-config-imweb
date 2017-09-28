@@ -50,5 +50,15 @@ module.exports = {
     'class-methods-use-this': 0,
     'no-plusplus': 0,
     'no-underscore-dangle': 0,
+    'import/no-extraneous-dependencies': [
+      0,
+      {
+        devDependencies: [
+          '/src',
+          '/test',
+        ],
+        peerDependencies: 0,
+      },
+    ],
   },
 };
