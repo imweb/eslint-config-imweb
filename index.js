@@ -26,6 +26,10 @@ module.exports = {
       2,
       'all',
     ],
+    'react/no-did-mount-set-state': 0,
+    'react/forbid-prop-types': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+    'array-callback-return': 0,
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
