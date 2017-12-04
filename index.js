@@ -64,5 +64,10 @@ module.exports = {
         peerDependencies: 0,
       },
     ],
+    'prefer-const': ['error', {
+      destructuring: 'all',
+    }],
+    'react/sort-comp': 0,
+    'import/extensions': 0,
   },
 };
