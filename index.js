@@ -64,5 +64,8 @@ module.exports = {
         peerDependencies: 0,
       },
     ],
+    'prefer-const': ['error', {
+      destructuring: 'all',
+    }],
   },
 };
