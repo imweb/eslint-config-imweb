@@ -67,7 +67,5 @@ module.exports = {
     'prefer-const': ['error', {
       destructuring: 'all',
     }],
-    'react/sort-comp': 0,
-    'import/extensions': 0,
   },
 };
