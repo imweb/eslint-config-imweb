@@ -67,5 +67,17 @@ module.exports = {
     'prefer-const': ['error', {
       destructuring: 'all',
     }],
+    'prefer-destructuring': ['error', {
+      VariableDeclarator: {
+        array: false,
+        object: true,
+      },
+      AssignmentExpression: {
+        array: false,
+        object: false,
+      },
+    }, {
+      enforceForRenamedProperties: false,
+    }],
   },
 };
