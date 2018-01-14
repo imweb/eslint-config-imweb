@@ -54,6 +54,9 @@ module.exports = {
     'class-methods-use-this': 0,
     'no-plusplus': 0,
     'no-underscore-dangle': 0,
+    'no-empty': ['error', {
+      allowEmptyCatch: true,
+    }],
     'import/no-extraneous-dependencies': [
       0,
       {
