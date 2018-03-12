@@ -30,6 +30,9 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'jsx-a11y/no-static-element-interactions': 0,
     'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': 0,
+    'jsx-a11y/mouse-events-have-key-events': 0,
+    'jsx-a11y/no-noninteractive-tabindex': 0,
     'array-callback-return': 0,
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
