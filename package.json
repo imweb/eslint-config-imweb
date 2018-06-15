@@ -29,5 +29,9 @@
   },
   "engines": {
     "node": ">= 4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1"
   }
 }
