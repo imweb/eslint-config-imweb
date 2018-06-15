@@ -50,8 +50,12 @@ module.exports = {
     'import/no-unresolved': 0,
     'no-param-reassign': 0,
     'no-return-assign': 0,
-    'no-mixed-operators': 0,
-    'no-use-before-define': 0,
+    'no-mixed-operators': [
+      'error', {
+        groups: [['&', '|', '^', '~', '<<', '>>', '>>>'], ['&&', '||']],
+        allowSamePrecedence: true,
+      },
+    ],
     'max-len': [
       2,
       {
