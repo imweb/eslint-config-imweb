@@ -69,7 +69,6 @@ module.exports = {
     'no-empty': ['error', {
       allowEmptyCatch: true,
     }],
-    'no-unused-expressions': [2, { allowShortCircuit: true }],
     'import/no-extraneous-dependencies': [
       0,
       {
