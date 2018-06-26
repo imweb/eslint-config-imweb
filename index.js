@@ -50,6 +50,12 @@ module.exports = {
     'import/no-unresolved': 0,
     'no-param-reassign': 0,
     'no-return-assign': 0,
+    'no-mixed-operators': [
+      'error', {
+        groups: [['&', '|', '^', '~', '<<', '>>', '>>>'], ['&&', '||']],
+        allowSamePrecedence: true,
+      },
+    ],
     'max-len': [
       2,
       {
@@ -63,6 +69,7 @@ module.exports = {
     'no-empty': ['error', {
       allowEmptyCatch: true,
     }],
+    'no-unused-expressions': [2, { allowShortCircuit: true }],
     'import/no-extraneous-dependencies': [
       0,
       {
