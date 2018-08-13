@@ -22,6 +22,11 @@ module.exports = {
     'babel',
   ],
   rules: {
+    'arrow-parens': 0,
+    'function-paren-newline': 0,
+    'object-curly-newline': 0,
+    'space-before-function-paren': 0,
+    
     curly: [
       2,
       'all',
