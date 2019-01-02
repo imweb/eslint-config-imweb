@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-imweb",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "IMWeb团队eslint配置规则",
   "repository": {
     "type": "git",
@@ -24,13 +24,13 @@
     "eslint-plugin-react": "^7.12.1"
   },
   "peerDependencies": {
-    "eslint": "^5.11.1"
+    "eslint": "^5.0.0"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1"
+    "eslint": "^5.0.0"
   }
 }
