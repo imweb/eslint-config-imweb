@@ -52,6 +52,7 @@ module.exports = {
     'arrow-body-style': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': 0,
+    "react/jsx-one-expression-per-line": "literal",
     'import/no-unresolved': 0,
     'no-param-reassign': 0,
     'no-return-assign': 0,
