@@ -12,7 +12,8 @@
     "imweb"
   ],
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint *.js",
+    "lintfix": "eslint --fix *.js"
   },
   "author": "IMWeb Team",
   "license": "MIT",
