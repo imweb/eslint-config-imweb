@@ -53,6 +53,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/jsx-filename-extension': 0,
     'react/jsx-one-expression-per-line': 0,
+    'react/destructuring-assignment': 0,
     'import/no-unresolved': 0,
     'no-param-reassign': 0,
     'no-return-assign': 0,
