@@ -23,7 +23,10 @@ module.exports = {
   ],
   rules: {
     'arrow-parens': 0,
-    'function-paren-newline': 0,
+    'function-paren-newline': [
+      2,
+      'multiline',
+    ],
     'object-curly-newline': 0,
     'space-before-function-paren': 0,
     curly: [
@@ -67,6 +70,9 @@ module.exports = {
       2,
       {
         code: 120,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
       },
     ],
     'consistent-return': 0,
