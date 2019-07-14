@@ -27,3 +27,5 @@ IMWeb团队eslint配置规则。
 运行:
 
 	npm run lint
+
+[文档链接](https://imweb.github.io/eslint-config-imweb/)

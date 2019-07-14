@@ -13,7 +13,10 @@
   ],
   "scripts": {
     "lint": "eslint *.js",
-    "lintfix": "eslint --fix *.js"
+    "lintfix": "eslint --fix *.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "./docs/.deploy.sh"
   },
   "author": "IMWeb Team",
   "license": "MIT",
@@ -32,6 +35,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
-    "eslint": "^5.0.0"
+    "eslint": "^5.0.0",
+    "vuepress": "^1.0.2"
   }
 }
