@@ -42,7 +42,7 @@
 
 ### [array-callback-return](https://eslint.org/docs/rules/array-callback-return)
 
-要求下列数组方法的回掉函数有返回值：
+要求下列数组方法的回调函数有返回值：
 
 - Array.from
 - Array.prototype.every
