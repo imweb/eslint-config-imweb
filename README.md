@@ -13,17 +13,21 @@ IMWeb团队eslint配置规则。
 
 配置 `.eslintrc` :
 
-	- 小程序项目：
+  - 小程序项目：
 
-		{
-			"extends": "eslint-config-imweb/weapp"
-		}
+    ```json
+    {
+        "extends": "eslint-config-imweb/weapp"
+    }
+    ```
 
-	- 非小程序项目
+  - 非小程序项目
 
-		{
-			"extends": "eslint-config-imweb"
-		}
+    ```json
+    {
+        "extends": "eslint-config-imweb"
+    }
+    ```
 
 配置 `package.json` 的scripts:
 
