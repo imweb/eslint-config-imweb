@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-imweb",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "IMWeb团队eslint配置规则",
   "repository": {
     "type": "git",
