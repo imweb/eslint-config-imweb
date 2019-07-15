@@ -20,8 +20,8 @@ IMWeb团队eslint配置规则。
 配置`package.json`的scripts:
 
 	 "scripts": {
-	  "lint": "eslint *.js lib test xxx",
-		"lintfix": "eslint --fix *.js lib test xxx"
+	   "lint": "eslint *.js lib test xxx",
+	   "lintfix": "eslint --fix *.js lib test xxx"
 	}
 
 运行:
