@@ -15,4 +15,4 @@ git add -A
 git commit -m 'deploy doc'
 
 # 发布到 Github
-git push -f git@github.com:imweb/eslint-config-imweb.git master:gh-pages
+git push -f https://github.com/imweb/eslint-config-imweb.git master:gh-pages
