@@ -27,9 +27,6 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.1"
   },
-  "peerDependencies": {
-    "eslint": "^5.0.0"
-  },
   "engines": {
     "node": ">= 6"
   },
