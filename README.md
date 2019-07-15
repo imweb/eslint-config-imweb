@@ -9,15 +9,23 @@ IMWeb团队eslint配置规则。
 # 安装
 安装依赖:
 
-	npm i --save-dev eslint babel-eslint eslint-config-imweb
+	npm i --save-dev eslint@5 babel-eslint eslint-config-imweb
 
-配置`.eslintrc`:
+配置 `.eslintrc` :
 
-	{
-	  "extends": "eslint-config-imweb"
-	}
+	- 小程序项目：
 
-配置`package.json`的scripts:
+		{
+			"extends": "eslint-config-imweb/weapp"
+		}
+
+	- 非小程序项目
+
+		{
+			"extends": "eslint-config-imweb"
+		}
+
+配置 `package.json` 的scripts:
 
 	 "scripts": {
 	   "lint": "eslint *.js lib test xxx",

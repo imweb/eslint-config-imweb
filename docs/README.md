@@ -7,16 +7,26 @@
 1. 安装依赖:
 
     ``` sh
-    npm i --save-dev eslint babel-eslint eslint-config-imweb
+    npm i --save-dev eslint@5 babel-eslint eslint-config-imweb
     ```
 
 2. 配置 `.eslintrc`:
 
-    ``` json
-    {
-      "extends": "eslint-config-imweb"
-    }
-    ```
+    - 小程序项目：
+
+      ``` json
+      {
+        "extends": "eslint-config-imweb/weapp"
+      }
+      ```
+
+    - 非小程序项目
+
+      ``` json
+      {
+        "extends": "eslint-config-imweb"
+      }
+      ```
 
 3. 配置`package.json`的scripts:
 

@@ -21,17 +21,6 @@ module.exports = {
     'react',
     'babel',
   ],
-  // 小程序全局变量
-  globals: {
-    wx: false,
-    App: false,
-    Page: false,
-    getApp: false,
-    Component: false,
-    Behavior: false,
-    requirePlugin: false,
-    getCurrentPages: false,
-  },
   rules: {
     'arrow-parens': 0,
     'function-paren-newline': [
