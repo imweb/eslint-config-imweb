@@ -9,7 +9,7 @@ IMWeb团队eslint配置规则。
 # 安装
 安装依赖:
 
-	npm i --save-dev eslint@5 babel-eslint eslint-config-imweb
+	npm i --save-dev eslint babel-eslint eslint-config-imweb
 
 配置 `.eslintrc` :
 
