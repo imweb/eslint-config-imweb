@@ -107,5 +107,9 @@ module.exports = {
     }, {
       enforceForRenamedProperties: false,
     }],
+
+    // no default export is better, see https://gitlab.com/gitlab-org/frontend/rfcs/-/issues/20
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "error"
   },
 };
